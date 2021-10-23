@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ozzy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Ozzy.</h1>
+        <div class="matrix-container">
+            <canvas id="matrix1" nx="matrix" class="matrix active"></canvas>
+            <canvas id="matrix2" nx="matrix" class="matrix"></canvas>
+            <canvas id="matrix3" nx="matrix" class="matrix"></canvas>
+        </div>
+
+        <div class="draggable-container">
+            <div class="draggable"></div>
+        </div>
+
+        <div class="button-container">
+            <button id="playBtn" class="button">Play</button>
+            <button id="stopBtn" class="button stop-button">Stop</button>
+            <button id="resetBtn" class="button reset-button">Reset</button>
+            <button id="leadBtn" class="button lead-button">Lead</button>
+            <button id="bassBtn" class="button bass-button">Bass</button>
+            <button id="rhythmBtn" class="button rhythm-button">Rhythm</button>
+            <button id="scaleBtn" class="button scale-button">:)</button>
+        </div>
+
+        <div class="rotate-message">
+            <p>Vänligen rotera din enhet för bästa upplevelse</p>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://npmcdn.com/draggabilly@2.1/dist/draggabilly.pkgd.min.js"></script>
+        <script src="js/frameworks/StartAudioContext.js"></script>
+        <script src="js/frameworks/nexusUI.js"></script>
+        <script src="js/frameworks/Tone.min.js"></script>
+        <script src="js/sound.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
